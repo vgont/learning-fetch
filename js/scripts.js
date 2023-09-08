@@ -63,7 +63,6 @@ async function getPost(id) {
     loadingElement.classList.add("hide");
     postPage.classList.remove("hide");
 
-    const div = document.createElement("div");
     const title = document.createElement("h1");
     const body = document.createElement("p");
 
